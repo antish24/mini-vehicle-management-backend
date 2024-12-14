@@ -3,7 +3,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 module.exports = {
-  PORT: process.env.PORT || 8800,
+  PORT:8810,
   MONGODB_URI:"mongodb+srv://Ish:ycDx5HriscAeF61w@miniapp.61vbg.mongodb.net/?retryWrites=true&w=majority&appName=Miniapp",
   JWT_SECRET:process.env.JWTSECRET,
   expiresIn:process.env.EXPIREDIN , // Token expiration time
