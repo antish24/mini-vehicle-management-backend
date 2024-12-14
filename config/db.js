@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect("mongodb+srv://Ish:ycDx5HriscAeF61w@miniapp.61vbg.mongodb.net/?retryWrites=true&w=majority&appName=Miniapp", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
